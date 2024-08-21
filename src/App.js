@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import GetInfo from './components/GetInfo';
+import LongestChain from './components/LongestChain';
+import Modal from './components/Modal';
+import SmallerElement from './components/SmallerElement';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+ <Modal/>
+ <GetInfo/>
+ <LongestChain/>
+ <SmallerElement/>
     </div>
   );
 }
